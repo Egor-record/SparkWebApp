@@ -91,7 +91,7 @@ public class main {
         }, new HandlebarsTemplateEngine());
 
 
-        // Это не работает но мне лень искать почему
+        // Это не работает
         exception(NotFoundException.class, (exc, req, res) -> {
             res.status(404);
 
